@@ -2,12 +2,38 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
-<Button  
-    android:id="@+id/MyButton"
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/Hello"
-    />
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/TextViewQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:textSize="10sp"
+        android:textColor="#ffffff"
+        android:text="v0.1" />
+    <TextView
+        android:id="@+id/TextViewQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:text="HIT and 4T rule" />
+    <TextView
+        android:id="@+id/TextViewQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:text="This application will help you evaluate the 4T score of your patients by asking a few questions." />
+    <Button
+        android:id="@+id/BtnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="Start" />
 </LinearLayout>
