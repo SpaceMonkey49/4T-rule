@@ -149,7 +149,7 @@ namespace HIT
             TextViewFinalScoreDetail.Text = Result;
 
             BtnRestart.Click += delegate { Start4T(); };
-            BtnExit.Click += delegate { this.FinishAffinity(); };
+            BtnExit.Click += delegate { System.exit(0); };
         }
     }
 }

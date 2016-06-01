@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="right"
         android:textSize="10sp"
-        android:textColor="#ffffff"
+        android:textColor="#fff"
         android:text="v0.1" />
     <TextView
         android:id="@+id/TextViewQuestion"
@@ -18,8 +18,8 @@
         android:layout_weight="1"
         android:gravity="center"
         android:textSize="30sp"
-        android:textColor="#ffffff"
-        android:text="HIT and 4T rule" />
+        android:textColor="#fff"
+        android:text="HIT and 4T rule"/>
     <TextView
         android:id="@+id/TextViewQuestion"
         android:layout_width="match_parent"
@@ -27,7 +27,7 @@
         android:layout_weight="1"
         android:gravity="center"
         android:textSize="16sp"
-        android:textColor="#ffffff"
+        android:textColor="#fff"
         android:text="This application will help you evaluate the 4T score of your patients by asking a few questions." />
     <Button
         android:id="@+id/BtnStart"

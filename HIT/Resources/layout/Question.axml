@@ -29,4 +29,10 @@
             android:layout_width="match_parent"
             android:gravity="center" />
     </LinearLayout>
+    <Button
+        android:id="@+id/BtnPrevious"
+        android:layout_width="52.5dp"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:background="@drawable/arrow_back" />
 </LinearLayout>
